@@ -5,3 +5,9 @@ The idea behind this app is aimed at bridging the gap between dumb and/or deaf p
 Currently in India, a large part of the population suffers from these issues, may of them being illiterate, with very few certified sign language interpreters. ASL is the most widely accepted sign language with quite a few technologies catering to it, whereas in India a majority is acquainted with ISL only. 
 
 The app will display a live camera preview, process the frames and display the corresponding result. It currently works for the alphabet. We would like to expand our scope further in due time.
+
+## Used
+
+1. Visual Studio 2017
+2. Xamarin Forms
+3. Customvision.ai
