@@ -1,4 +1,4 @@
-## Indian Sign Language to Text
+## Gesture Recognition: Indian Sign Language
 
 The idea behind this app is aimed at bridging the gap between dumb and/or deaf persons and the rest of us. Communication is a huge issue when the other person is not well-versed and having an interpreter around all the time isn't feasible. 
 
@@ -9,5 +9,5 @@ The app will display a live camera preview, process the frames and display the c
 ## Used
 
 1. Visual Studio 2017
-2. Xamarin Forms
-3. Customvision.ai
+2. Xamarin Forms (Mobile App)
+3. Customvision.ai (Training and Image Classification)
