@@ -9,6 +9,5 @@ C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.dll
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.pdb
-C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.csprojAssemblyReference.cache
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\obj\Debug\netstandard2.0\About.xaml.g.cs
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\obj\Debug\netstandard2.0\Help.xaml.g.cs

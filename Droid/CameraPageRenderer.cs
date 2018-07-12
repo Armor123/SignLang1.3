@@ -11,11 +11,12 @@ using Android.Views;
 using Android.Graphics;
 using Android.Widget;
 using System.Threading.Tasks;
+using System.Threading;
 
 [assembly: ExportRenderer(typeof(CameraPage), typeof(CameraPageRenderer))]
 namespace CustomRenderer.Droid
 {
-    public class CameraPageRenderer : PageRenderer, TextureView.ISurfaceTextureListener
+    public class CameraPageRenderer : PageRenderer, TextureView.ISurfaceTextureListener, Android.Hardware.Camera.IPreviewCallback
     {
         global::Android.Hardware.Camera camera;
         global::Android.Widget.Button takePhotoButton;
@@ -31,6 +32,8 @@ namespace CustomRenderer.Droid
         readonly ImageClassifier imageClassifier = new ImageClassifier();
         bool flashOn;
 
+        static int count = 0;
+        static string res = "check";
         public CameraPageRenderer(Context context) : base(context)
         {
         }
@@ -133,6 +136,7 @@ namespace CustomRenderer.Droid
             }
 
             camera.StartPreview();
+            camera.SetPreviewCallback(this);
         }
 
         void ToggleFlashButtonTapped(object sender, EventArgs e)
@@ -170,6 +174,36 @@ namespace CustomRenderer.Droid
             }
         }
 
+        void Android.Hardware.Camera.IPreviewCallback.OnPreviewFrame(byte[] data, Android.Hardware.Camera camera)
+        {
+            count++;
+            Console.WriteLine(count);
+            
+            if (count==20)
+            {
+                new Thread(() =>
+                {
+                    Console.WriteLine("Hello");
+
+                    var image = textureView.Bitmap;
+                    image = ToGrayscale(image);
+
+                    int width = textureView.Width;
+                    width = width / 2;
+                    int height = textureView.Height;
+                    height = height / 2;
+                    image = Bitmap.CreateBitmap(image, width - 200, height - 200, 400, 400);
+                    var x = Task.Run(() => imageClassifier.RecognizeImage(image));
+                    res = x.Result;
+                    Console.WriteLine(x.Result);
+                    count = 0;
+                }
+                ).Start();
+                result.Text = res;
+            }
+           
+           
+        }
         void SwitchCameraButtonTapped(object sender, EventArgs e)
         {
             if (cameraType == CameraFacing.Front)
@@ -251,7 +285,9 @@ namespace CustomRenderer.Droid
             }
 
             camera.StartPreview();
+            camera.SetPreviewCallback(this);
         }
+
     }
 }
 

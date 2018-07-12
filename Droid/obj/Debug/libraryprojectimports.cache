@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj\Debug\lp\1\jl\formsviewgroup.jar</Jar>
+    <Jar>obj\Debug\lp\3\jl\libandroid_tensorflow_inference_java.jar</Jar>
+    <Jar>obj\Debug\lp\5\jl\support-annotations.jar</Jar>
     <Jar>C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\lp\1\jl\formsviewgroup.jar</Jar>
     <Jar>C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\lp\10\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\lp\11\jl\bin\classes.jar</Jar>

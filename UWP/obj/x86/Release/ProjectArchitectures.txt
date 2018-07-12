@@ -1,0 +1,1 @@
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\CustomRenderer.UWP.csproj;x86
