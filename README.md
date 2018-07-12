@@ -1,4 +1,4 @@
-Indian Sign Language to Text
+## Indian Sign Language to Text
 
 The idea behind this app is aimed at bridging the gap between dumb and/or deaf persons and the rest of us. Communication is a huge issue when the other person is not well-versed and having an interpreter around all the time isn't feasible. 
 
