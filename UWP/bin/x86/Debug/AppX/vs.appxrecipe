@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-12T08:28:05.203</Modified>
+      <Modified>2018-07-12T09:13:30.954</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\bin\x86\Debug\CustomRenderer.UWP.exe">
       <PackagePath>entrypoint\CustomRenderer.UWP.exe</PackagePath>
-      <Modified>2018-07-12T08:28:01.789</Modified>
+      <Modified>2018-07-12T09:13:28.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dsouz\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -713,7 +713,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.dll">
       <PackagePath>CustomRenderer.dll</PackagePath>
-      <Modified>2018-07-12T08:27:48.457</Modified>
+      <Modified>2018-07-12T09:11:32.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -759,11 +759,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-07-12T08:28:01.412</Modified>
+      <Modified>2018-07-12T09:13:27.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-07-12T08:28:01.412</Modified>
+      <Modified>2018-07-12T09:13:27.839</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -824,7 +824,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\UWP\bin\x86\Debug\Core\CustomRenderer.UWP.exe">
       <PackagePath>CustomRenderer.UWP.exe</PackagePath>
-      <Modified>2018-07-12T08:28:05.191</Modified>
+      <Modified>2018-07-12T09:13:30.937</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

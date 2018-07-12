@@ -99,6 +99,11 @@ C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\XamlC.stamp
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\res\drawable\bg.png
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\res\drawable\bg1.png
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\res\drawable\gesturerecog.png
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\res\drawable\heading.png
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\res\drawable\isl.png
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\bin\Debug\CustomRenderer.Droid.dll
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\linksrc\CustomRenderer.Droid.dll.mdb
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\ContentPage\Droid\obj\Debug\linksrc\FormsViewGroup.dll.mdb

@@ -220,7 +220,12 @@ namespace CustomRenderer.Droid
 
             var image = textureView.Bitmap;
             image=ToGrayscale(image);
-            image = Bitmap.CreateBitmap(image, 200, 200, 500, 500);
+            
+            int width = textureView.Width;
+            width = width / 2;
+            int height = textureView.Height;
+            height = height / 2;
+            image = Bitmap.CreateBitmap(image, width-200, height-200, 400, 400);
             var x = Task.Run(() => imageClassifier.RecognizeImage(image));
             result.Text = x.Result;
             try

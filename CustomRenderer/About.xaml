@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomRenderer.About"
+             BackgroundImage="bg.jpg">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+           
+            <StackLayout Padding="10,0" >
+                <Label 
+                    VerticalOptions="CenterAndExpand" 
+                   TextColor="Purple"
+                   FontSize="Medium"
+                    
+                HorizontalOptions="CenterAndExpand" FontFamily = "Verdana" WidthRequest="350" 
+             Text="&#x0a;&#x0a;&#x0a;This app has been designed keeping in view the difficulties that mute and deaf persons face in communication and at the same time trying to educate the others about sign language. The American Sign Language is much easily translated as compared to before, while the Indian Sign Language is largely not comprehendable.&#x0a;&#x0a; Click on the camera option to get started! 
+                   " />
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

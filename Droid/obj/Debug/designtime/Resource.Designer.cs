@@ -2225,6 +2225,12 @@ namespace CustomRenderer.Droid
 			// aapt resource value: 2130837613
 			public static int avd_show_password_3 = 2130837613;
 			
+			// aapt resource value: 0
+			public static int bg = 0;
+			
+			// aapt resource value: 0
+			public static int bg1 = 0;
+			
 			// aapt resource value: 2130837589
 			public static int design_bottom_navigation_item_background = 2130837589;
 			
@@ -2245,6 +2251,12 @@ namespace CustomRenderer.Droid
 			
 			// aapt resource value: 0
 			public static int FlashButton = 0;
+			
+			// aapt resource value: 0
+			public static int GestureRecog = 0;
+			
+			// aapt resource value: 0
+			public static int Heading = 0;
 			
 			// aapt resource value: 0
 			public static int icon = 0;
@@ -2683,6 +2695,9 @@ namespace CustomRenderer.Droid
 			
 			// aapt resource value: 2130837731
 			public static int ic_vol_type_tv_light = 2130837731;
+			
+			// aapt resource value: 0
+			public static int isl = 0;
 			
 			// aapt resource value: 2130837732
 			public static int mr_button_connected_dark = 2130837732;

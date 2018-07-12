@@ -1,11 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-			 x:Class="CustomRenderer.MainPage"
-			 Title="Main Page">
-	<ContentPage.Content>
-		<StackLayout>
-			<Button x:Name="takePhotoButton" Text="Take Photos" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="OnTakePhotoButtonClicked" />
-		</StackLayout>
-	</ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomRenderer.MainPage"
+             BackgroundImage="bg1.png">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+            <StackLayout>
+                <Image x:Name="ISL" Source="icon.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="125" WidthRequest="125" Margin="25,70"></Image>
+                <Image x:Name="GRC" Source="Heading.png" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" Margin="25,25"></Image>
+                <Button x:Name="OP"  Text="Camera"  TextColor="Black" Clicked="OnTakePhotoButtonClicked" BackgroundColor="#E2849E" VerticalOptions="Center" HorizontalOptions="Center" Margin="10,10" HeightRequest="35"></Button>
+                <Button x:Name="AB" Text="About" TextColor="Black"  Clicked="go_to_About" BackgroundColor="#E2849E" VerticalOptions="Center" HorizontalOptions="Center" Margin="10,10" HeightRequest="35"></Button>
+                <Button x:Name="HE" Text="Help" TextColor="Black"  Clicked="go_to_Help" BackgroundColor="#E2849E" VerticalOptions="Center" HorizontalOptions="Center" Margin="10,10" HeightRequest="35"></Button>
+
+
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
 </ContentPage>
